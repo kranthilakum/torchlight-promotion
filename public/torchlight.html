@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an app to turns the LED of your mobile phone into a flashlight.
+        Download the app for free today!">
+    <meta name="author" content="Kranthi Kumar Lakum">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>TorchLight | Android app</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/offcanvas.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-8">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle</button>
+          </p>
+          <div id="jumbo" class="jumbotron">
+            <img id="app" class="galaxy" src="img/torchlight_off.png" alt="torchlight" name="pic" onclick="changeIt()" />
+          </div>
+        </div><!--/span-->
+
+        <div class="col-xs-6 col-sm-4 sidebar-offcanvas" id="sidebar" role="navigation">
+          <div class="promo-icon">
+           <a class='icon' href='https://play.google.com/store/apps/details?id=in.lakum.torchlight' rel='external'
+             title='Get the app from Google Play'>
+            <img class="logo" src='img/app-web-icon.png'/>
+           </a>
+          </div>
+
+          <div class='promo'>
+            <h1>TorchLight</h1>
+            <h2>Beams to assist you.</h2>
+            <p>
+              <a href='https://play.google.com/store/apps/details?id=in.lakum.torchlight' rel='external'
+                  title='Get the app from Google Play'>
+                <img class="play" ="" src='img/google-play-store.png' alt='Download TorchLight from App Store'
+                  width='172' height='60' style='display: inline-block'/>
+              </a>
+            </p>
+          </div>
+
+          <p class="info">
+            This app can help you guide through darkness. It has an interactive
+            button and a battery level indicator.
+          </p>
+
+          <p class='note'>
+              * Works only on Android 2.3 and above.
+          </p>
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>
+          &copy; 2013 <a href="https://play.google.com/store/apps/details?id=in.lakum.torchlight">TorchLight</a> by <a href='http://www.lakum.in' rel='external'>Kranthi Lakum</a>
+        </p>
+      </footer>
+
+    </div><!--/.container-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/offcanvas.min.js"></script>
+  </body>
+</html>
